@@ -1,0 +1,8 @@
+name: ChatSentry
+version: '0.3'
+main: net.drugssmp.chatsentry.ChatSentry
+api-version: '1.20'
+commands:
+  chatsentry:
+    aliases:
+      - cs
