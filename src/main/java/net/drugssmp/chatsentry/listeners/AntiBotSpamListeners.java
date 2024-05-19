@@ -22,6 +22,7 @@ public class AntiBotSpamListeners implements Listener {
     @EventHandler
     public void onQuit(PlayerQuitEvent event) {
         Player player = event.getPlayer();
+        main.getPms().remove(player.getUniqueId());
         main.getFilterManager().getProbableBots().remove(player.getUniqueId());
     }
 

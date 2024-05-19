@@ -6,3 +6,9 @@ commands:
   chatsentry:
     aliases:
       - cs
+  message:
+    aliases:
+      - msg
+  reply:
+    aliases:
+      - r

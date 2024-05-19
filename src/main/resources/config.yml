@@ -13,6 +13,13 @@ messages:
   anti_link: "&cYou can't send links within the server!"
   anti_spam: "&cPlease wait before sending another message. (%time%s)"
   anti_botspam: "&cYou must move first to be able to write in chat or execute a command."
+  usage_message: "&cUse: /msg <player> <message>"
+  usage_reply: "&cUse: /r <message>"
+  dont_have_conversations: "&cYou don't have any conversations going on."
+  player_not_found: "&cPlayer not found."
+  format_pm_sender: "&7(A &f%receiver%&7) &f%message%"
+  format_pm_receiver: "&7(Da &f%sender%&7) &f%message%"
+  cant_send_yourself: "&cYou can't send a message to yourself."
 banned_words:
   - "negro"
   - "negra"
